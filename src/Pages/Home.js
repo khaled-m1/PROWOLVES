@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../Components/Navbar';
 import Header from '../Components/Header';
 import Service from '../Components/Service';
-import Team from '../Components/Team';
+import Gallery from '../Components/Galerry';
 import Footer from '../Components/Footer';
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
       <Navbar />
       <Header />
       <Service />
-      <Team />
+      <Gallery />
       <Footer />
     </>
   );
