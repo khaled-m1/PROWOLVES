@@ -58,7 +58,7 @@ export default function SmallWithLogoLeft() {
             alt="LOGO"
           />
         </Box>
-        <Text>© All rights reserved PROWOLVES</Text>
+        <Text>© ProWolves production</Text>
         <Text> hi@prowolves.com</Text>
         <Stack direction={'row'} spacing={6}>
           <SocialButton label={'Twitter'} href={'#'}>
