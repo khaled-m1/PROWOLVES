@@ -10,7 +10,7 @@ import {
 
 export default function CallToActionWithIllustration() {
   return (
-    <Container maxW={'5xl'} height={['100%', '650px']}>
+    <Container maxW={'5xl'} height={['100%', '650px']} mt={10}>
       <Stack
         textAlign={'center'}
         align={'center'}

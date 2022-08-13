@@ -15,7 +15,7 @@ export default function Nav() {
   const { colorMode, toggleColorMode } = useColorMode();
   return (
     <>
-      <Box px={4}>
+      <Box px={4} mt={3}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <Flex alignItems={'center'}>
             <Stack direction={'row'} spacing={7}>
@@ -26,7 +26,7 @@ export default function Nav() {
           </Flex>
           <Box>
             <Image
-              width={['30vw', '10vw']}
+              width={['35vw', '15vw']}
               src={useColorModeValue(MainLogo, WhiteLogo)}
               alt="LOGO"
             />
