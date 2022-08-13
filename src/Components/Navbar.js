@@ -24,7 +24,7 @@ export default function Nav() {
               </Button>
             </Stack>
           </Flex>
-          <Box>
+          <Box mt={[0, 5]}>
             <Image
               width={['35vw', '15vw']}
               src={useColorModeValue(MainLogo, WhiteLogo)}
